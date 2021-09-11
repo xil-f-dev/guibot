@@ -21,3 +21,8 @@ npm start
 ```
 
 The GUI is available at http://localhost:3000/
+
+## Images
+
+[![Image](https://i.goopics.net/kya9o.png)](https://goopics.net/i/kya9o)
+[![Image](https://i.goopics.net/VgWrv.png)](https://goopics.net/i/VgWrv)
