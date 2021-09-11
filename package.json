@@ -1,0 +1,17 @@
+{
+  "name": "guibot",
+  "version": "1.0.0",
+  "description": "A script to control a discord bot through a GUI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["discord.js", "bot"],
+  "author": "Felix RONDEAU (xil-f-dev)",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  }
+}

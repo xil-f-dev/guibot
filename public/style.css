@@ -1,0 +1,170 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #202125;
+  padding: 15px;
+}
+
+/* Login form */
+.form_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form_wrapper.hidden {
+  display: none;
+}
+
+.input_form {
+  padding: 20px;
+  background-color: #37383f;
+  border-radius: 25px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+.input_form.waiting {
+  filter: grayscale(1) brightness(0.5);
+}
+.input_form h2 {
+  margin-bottom: 15px;
+}
+.input_form input {
+  height: 40px;
+  background-color: #41424b;
+  color: white;
+}
+.input_form input[type=password] {
+  border-radius: 10px 10px 0 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+}
+.input_form input[type=submit] {
+  border-radius: 0 0 10px 10px;
+  background-color: #7400f6;
+  font-size: 17px;
+}
+.input_form input[type=submit]:hover {
+  background-color: #6104cc;
+}
+.input_form hr {
+  width: 100%;
+  border-top: 1px solid #c5c5c5;
+}
+
+section.discuss {
+  height: calc(100vh - 30px);
+  width: 500px;
+  background-color: #37383f;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+section.discuss h3 {
+  font-size: 20px;
+}
+section.discuss hr {
+  width: 40px;
+  border-top: 1px solid #c9c9c9;
+  margin-bottom: 10px;
+}
+section.discuss input {
+  height: 40px;
+  background-color: #41424b;
+  border-radius: 5px;
+  border: #4d4e57 2px solid;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+section.discuss input[type=submit] {
+  padding: 10px;
+  border: none;
+  background-color: #7400f6;
+}
+section.discuss input[type=submit]:hover {
+  background-color: #6104cc;
+}
+section.discuss button {
+  height: 40px;
+  background-color: #7400f6;
+  border-radius: 5px;
+  font-size: 15px;
+}
+section.discuss button:hover {
+  background-color: #6104cc;
+}
+section.discuss .messages_container {
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+section.discuss .messages_container .message {
+  margin-top: 10px;
+  display: flex;
+}
+section.discuss .messages_container .message .avatar {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: var(--avatar-url);
+  background-size: cover;
+  margin-right: 10px;
+}
+section.discuss .messages_container .message .author {
+  font-weight: bold;
+  margin-right: 5px;
+}
+section.discuss .messages_container .message .date {
+  color: #585858;
+  font-size: 10px;
+}
+section.discuss .messages_container::-webkit-scrollbar {
+  width: 8px;
+}
+section.discuss .messages_container::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #2b2f34;
+}
+section.discuss .messages_container::-webkit-scrollbar-thumb {
+  background: #202125;
+  border-radius: 4px;
+}
+section.discuss .message_form {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+section.discuss .message_form input {
+  margin: 0;
+}
+section.discuss .message_form input.message_content {
+  width: 100%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+section.discuss .message_form input.message_send {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
