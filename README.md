@@ -1,5 +1,9 @@
 # GUIBOT - Control your discord bot through a Graphical User Interface
 
+## How it works
+
+<img src="https://i.ibb.co/tsJwsP9/image.png" width="300" alt="How it works">
+
 ## Installation
 
 1. First clone this repository
@@ -23,6 +27,5 @@ npm start
 The GUI is available at http://localhost:3000/
 
 ## Images
+<img src="https://i.goopics.net/VgWrv.png" width="350" alt="Image"><img src="https://i.goopics.net/kya9o.png" width="350" alt="Image">
 
-[![Image](https://i.goopics.net/kya9o.png)](https://goopics.net/i/kya9o)
-[![Image](https://i.goopics.net/VgWrv.png)](https://goopics.net/i/VgWrv)
