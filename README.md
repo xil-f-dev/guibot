@@ -26,6 +26,6 @@ npm start
 
 The GUI is available at http://localhost:3000/
 
-## Images
+## Screenshots
 <img src="https://i.goopics.net/VgWrv.png" width="350" alt="Image"><img src="https://i.goopics.net/kya9o.png" width="350" alt="Image">
 
